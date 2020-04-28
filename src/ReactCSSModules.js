@@ -113,7 +113,7 @@ class ReactCSSModules {
     return {
       plugins: [
         [
-          "react-css-modules",
+          "babel-plugin-react-css-modules",
           {
             filetypes: {
               ".scss": {
@@ -123,7 +123,6 @@ class ReactCSSModules {
             },
             exclude: "node_modules",
             handleMissingStyleName: "warn",
-            attributeNames: { "ezkodStyle": "ClassName" },
             generateScopedName: this.scopedName
           }
         ]

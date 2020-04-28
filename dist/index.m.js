@@ -106,7 +106,7 @@ ReactCSSModules.prototype.webpackConfig = function webpackConfig (config) {
 
 ReactCSSModules.prototype.babelConfig = function babelConfig () {
   return {
-    plugins: [["react-css-modules", {
+    plugins: [["babel-plugin-react-css-modules", {
       filetypes: {
         ".scss": {
           syntax: "postcss-scss",
@@ -115,9 +115,6 @@ ReactCSSModules.prototype.babelConfig = function babelConfig () {
       },
       exclude: "node_modules",
       handleMissingStyleName: "warn",
-      attributeNames: {
-        "ezkodStyle": "ClassName"
-      },
       generateScopedName: this.scopedName
     }]]
   };

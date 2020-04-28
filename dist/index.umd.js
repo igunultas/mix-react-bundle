@@ -111,7 +111,7 @@
 
   ReactCSSModules.prototype.babelConfig = function babelConfig () {
     return {
-      plugins: [["react-css-modules", {
+      plugins: [["babel-plugin-react-css-modules", {
         filetypes: {
           ".scss": {
             syntax: "postcss-scss",
@@ -120,9 +120,6 @@
         },
         exclude: "node_modules",
         handleMissingStyleName: "warn",
-        attributeNames: {
-          "ezkodStyle": "ClassName"
-        },
         generateScopedName: this.scopedName
       }]]
     };
