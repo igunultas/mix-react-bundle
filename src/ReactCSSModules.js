@@ -123,7 +123,7 @@ class ReactCSSModules {
             },
             exclude: "node_modules",
             handleMissingStyleName: "warn",
-            attributeNames: {"styleName": "className"},
+            attributeNames: { "ezkodStyle": "ClassName" },
             generateScopedName: this.scopedName
           }
         ]
