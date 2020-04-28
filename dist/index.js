@@ -117,6 +117,9 @@ ReactCSSModules.prototype.babelConfig = function babelConfig () {
       },
       exclude: "node_modules",
       handleMissingStyleName: "warn",
+      attributeNames: [{
+        "styleName": "className"
+      }],
       generateScopedName: this.scopedName
     }]]
   };

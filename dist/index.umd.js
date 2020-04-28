@@ -120,6 +120,9 @@
         },
         exclude: "node_modules",
         handleMissingStyleName: "warn",
+        attributeNames: [{
+          "styleName": "className"
+        }],
         generateScopedName: this.scopedName
       }]]
     };
