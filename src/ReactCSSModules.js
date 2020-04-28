@@ -123,9 +123,7 @@ class ReactCSSModules {
             },
             exclude: "node_modules",
             handleMissingStyleName: "warn",
-            attributeNames: [
-	            {"styleName": "className"}
-            ],
+            attributeNames: {"styleName": "className"},
             generateScopedName: this.scopedName
           }
         ]
