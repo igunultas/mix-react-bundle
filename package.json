@@ -1,7 +1,6 @@
 {
-  "version": "1.0.3",
-  "name": "mix-react-bundle",
   "version": "1.0.1",
+  "name": "mix-react-bundle",
   "description": "A React CSS Modules plugin for Laravel Mix",
   "main": "dist/index.js",
   "umd:main": "dist/index.umd.js",

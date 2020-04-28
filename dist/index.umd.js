@@ -111,7 +111,7 @@
 
   ReactCSSModules.prototype.babelConfig = function babelConfig () {
     return {
-      plugins: [["babel-plugin-react-css-modules", {
+      plugins: [["react-css-modules", {
         filetypes: {
           ".scss": {
             syntax: "postcss-scss",

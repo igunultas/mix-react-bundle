@@ -113,7 +113,7 @@ class ReactCSSModules {
     return {
       plugins: [
         [
-          "babel-plugin-react-css-modules",
+          "react-css-modules",
           {
             filetypes: {
               ".scss": {
